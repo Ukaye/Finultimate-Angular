@@ -1,0 +1,89 @@
+<div class="nav-wrapper">
+  <a id="logo-container" href="#" class="brand-logo hide-on-med-and-down">
+    <img src="assets/img/finultimate-logo.svg" width="150px" alt="">
+  </a>
+  <div class="nav-option">
+    <div class="row d-flex">
+      <div class="nav_search_icon">
+        <a href="#" class="material-icons" style="color: black;">search</a>
+      </div>
+
+      <div class="dropdown-trigger nav-account" data-target='dropdown1'>
+        <a href="#" class="nav-account-link">
+          <img src="assets/img/1.jpg" width="50px" height="50px" alt="" style="margin-right: 10px; border-radius: 50%;">
+          <span class="username">Olanrewaju Bolaji</span>
+          <img src="assets/img/caret_down.svg" alt="" style="margin-left: 10px;">
+
+        </a>
+      </div>
+    </div>
+
+    <form class="form-inline">
+      <input class="nav-search" type="text" placeholder="Search" aria-label="Search" style="position: absolute; right: 1px;top: 85px;background: #fff; border-bottom-color: white; z-index: 9999;
+box-shadow: rgba(0, 0, 0, 0.11) 0px 4px 13px;">
+    </form>
+  </div>
+  <ul class="center hide-on-med-and-down web-nav">
+    <li><a href="company-list.html" class="">Clients</a></li>
+    <li><a href="#">Reports</a></li>
+    <li><a href="#">Targets</a></li>
+    <li><a href="#">Sales</a></li>
+    <li><a href="#">Tickets</a></li>
+    <li><a href="teams-list.html">Teams</a></li>
+
+  </ul>
+  <div id='dropdown1' class='dropdown-content dropdown_data'>
+    <div class="row">
+      <a href="" style="display: flex;">
+        <div class="profile col-md-3">
+          <img src="assets/img/1.jpg" width="50px" height="50px" alt="">
+        </div>
+        <div class="profile col-md-9">
+          <p class="user">Mary Doe</p>
+          <p class="user-email">MaryDoe@test.com</p>
+        </div>
+      </a>
+    </div>
+    <div class="divider"></div>
+    <div class="profile">
+      <a href="#!" class="tenant">ATB Techsoft</a>
+      <a href="#" class="change-tenant dropdown_link" style="padding-top: 0 !important;">Change tenant</a>
+    </div>
+    <div class="divider"></div>
+
+    <div class="profile">
+      <a href="#" class="dropdown_link" style="padding-top: 0 !important;">Credit Management</a>
+      <a href="#" class="dropdown_link" style="padding-top: 0 !important;">Products</a>
+    </div>
+    <div class="divider"></div>
+
+    <div class="profile">
+      <a href="settings.html" class="dropdown_link" style="padding-top: 0 !important;">Settings</a>
+    </div>
+    <div class="divider"></div>
+    <div class="profile">
+      <a href="#" class="dropdown_link" style="padding-top: 0 !important;">Logout</a>
+    </div>
+  </div>
+
+  <ul id="nav-mobile" class="sidenav">
+    <li>
+      <a href="dashboard.html">
+        <img src="img/finultimate-logo.svg" width="150px" alt="">
+      </a></li>
+    <li class="nav-active" id="dropdown_mobile_nav" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><a
+        href="company-list.html">Clients</a>
+      <div class="dropdown-menu" aria-labelledby="dropdown_mobile_nav">
+        <a class="dropdown-item hide-on-extra-large-only" href="company-within.html">Companies</a>
+        <a class="dropdown-item hide-on-extra-large-only" href="#">Contacts</a>
+        <a class="dropdown-item hide-on-extra-large-only" href="#">Leads</a>
+      </div>
+    </li>
+    <li><a href="#">Reports</a></li>
+    <li><a href="#">Targets</a></li>
+    <li><a href="#">Sales</a></li>
+    <li><a href="#">Tickets</a></li>
+    <li><a href="#">Teams</a></li>
+  </ul>
+  <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+</div>
